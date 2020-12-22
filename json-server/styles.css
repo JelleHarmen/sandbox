@@ -1,0 +1,91 @@
+/* CSS Variables is not supported by IE  
+Use a polyfill or use SCSS variables instead 
+I use this technique for the ease of use for this project  */
+:root {
+  --primary-color: #4bbe87;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background: #eee;
+  color: #444;
+  max-width: 768px;
+  margin: 100px auto;
+  font-family: monospace;
+  padding: 0 15px;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  border: var(--primary-color);
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+/* post list */
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.post h2 {
+  margin: 0;
+}
+
+.post p {
+  margin-top: 0;
+}
+
+.post a {
+  color: var(--primary-color);
+}

@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "The second blog post",
+      "body": "Fusce efficitur convallis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula nulla, ornare quis erat sit amet, vulputate commodo diam. Maecenas ac quam posuere, rutrum nunc scelerisque, lobortis mauris. Vivamus sit amet consectetur augue. Fusce mollis consectetur arcu, sit amet rhoncus diam. Fusce ornare neque non vulputate ultrices. Sed fringilla diam eu lorem lobortis lacinia. Sed non velit id purus cursus luctus bibendum sed enim. Curabitur vitae euismod nisl. Nulla facilisi. Duis mattis dapibus velit quis viverra. Pellentesque dictum nisl et dignissim aliquet. Sed tristique dapibus libero, vitae bibendum odio luctus in.",
+      "likes": 10
+    },
+    {
+      "id": 3,
+      "title": "Get ready for the next chapter",
+      "body": "Donec felis risus, euismod at ligula sit amet, semper facilisis risus. Integer ligula nisi, fringilla sed pretium id, accumsan et sem. Mauris non enim nulla. Duis commodo lacinia libero, at malesuada ipsum commodo id. Maecenas eros nulla, feugiat eu pretium eget, feugiat a urna. Nam et rutrum arcu, et lobortis tellus. Etiam pretium nisi eget massa vestibulum vulputate. Donec interdum justo turpis, in vehicula ligula faucibus sed. Nunc venenatis nec quam eu vehicula. Sed condimentum nulla nec libero eleifend malesuada. Fusce metus nisi, fermentum eu nibh sed, cursus tempor nunc. Nulla eget lectus sit amet lacus maximus facilisis. Duis sit amet malesuada justo.",
+      "likes": 20
+    },
+    {
+      "title": "New blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies nisl dolor, in congue libero dignissim in. Vestibulum lobortis nulla lorem, et luctus risus elementum tristique. Nulla faucibus nec sapien eu pretium. Nulla tincidunt bibendum congue. Nunc sed porta dui. Mauris vel ante turpis. Curabitur rhoncus, massa et eleifend tristique, purus sem ullamcorper elit, ut efficitur tortor massa quis felis. Duis euismod dignissim malesuada. Mauris sit amet iaculis augue, vitae venenatis magna. Nullam eget imperdiet ligula, sit amet dignissim neque. Pellentesque eu justo ac dolor tristique euismod. Suspendisse risus massa, viverra nec tincidunt non, placerat vel ante. Aliquam magna metus, ullamcorper id elit ac, ultricies faucibus justo.",
+      "likes": 0,
+      "id": 4
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Do you prefer Vue or React?",
+      "anwerA": "Vue",
+      "answerB": "React"
+    }
+  ]
+}
